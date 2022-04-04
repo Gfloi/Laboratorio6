@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./IMAGES/fragment.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.tope-superior{
+    z-index: 99;
+    font-size: 20px;
+}
+
+.textote{
+    font-size: 50px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.textote:hover{
+    color: #dbc58a;
+}
+
+.btnmap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#collapseExample{
+
+    width: 130%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.mt-32{
+    margin-top: 6rem;
+}
+
+p{
+    text-align: justify;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.parrafos{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: center;
+}
